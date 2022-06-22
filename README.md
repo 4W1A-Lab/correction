@@ -6,17 +6,17 @@
 
 Driven by the development of advanced X-ray optics such as Fresnel zone plates, nano-resolution full-field transmission X-ray microscopy (Nano-CT) has become a powerful technique for the non-destructive volumetric inspection of objects and has long been developed at different synchrotron radiation facilities. However, the Nano-CT data are often associated with a random sample jitter because of the drift or radial/axial error motion of the rotation stage during measurement. Without a proper sample jitter correction process prior to reconstruction, the use of Nano-CT in providing accurate 3D structure information for samples is almost impossible. In this paper, to realise accurate 3D reconstruction for Nano-CT, a correction method based on feature detection neural network, which can automatically extract target features from a projective image and precisely correct sample jitter errors, is proposed, thereby resulting in high-quality nanoscale 3D reconstruction. Compared with other feature detection methods, even if the target feature is overlapped by other high-density materials or impurities, the proposed Nano-CT correction method still acquires sub-pixel accuracy in geometrical correction and is more suitable for Nano-CT reconstruction because of its universal and faster correction speed. The simulated and experimental datasets demonstrated the reliability and validity of the proposed Nano-CT correction method.
 
-<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig5.tif" width="600px">
+<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig5.png" width="600px">
 
 ## Workflow 
 The workflow is shown in the figure below:
 
-<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig1.tif" width="600px">
+<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig1.png" width="600px">
 
 ## Network structure 
 The network structure is shown in the figure below
 
-<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig2.tif" width="600px">
+<img src="https://github.com/4W1A-Lab/correction/blob/main/Figure/fig2.png" width="600px">
 
 ## Getting Started
 
