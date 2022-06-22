@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-image
+keras>=2.3.1
+opencv-python
+h5py
+dxchange
+os
+glob
+math
+argparse
+time
+tensorflow>=1.15.0
+IPython[all]
